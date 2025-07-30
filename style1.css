@@ -14,7 +14,7 @@
 	} */
 }
 /* Responsive Rule: Hide on small screens */
-@media (max-width: none) {
+@media (max-width: 396px) {
 	#superimg {
 		display: none;
 
