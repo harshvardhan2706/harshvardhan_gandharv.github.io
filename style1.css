@@ -5,17 +5,18 @@
 	position: absolute;
 	top: 30px;
 	right: 10px;
-	z-index: 2;
-	@include media-breakpoint-down(md) {
+	z-index: 0;
+	/* @include media-breakpoint-down(md) {
 		display: none;
 	}
 	img {
 		width: 95vh;
-	}
+	} */
 }
 /* Responsive Rule: Hide on small screens */
-@media (max-width: 768px) {
+@media (max-width: none) {
 	#superimg {
 		display: none;
+
 	}
 }
