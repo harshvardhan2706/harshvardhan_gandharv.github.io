@@ -1,0 +1,18 @@
+#superimg {
+    
+	/* width: 12em;
+	height: 12em; */
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	z-index: 2;
+	@include media-breakpoint-down(md) {
+		display: none;
+	}
+	img {
+		width: 110vh;
+	}
+}

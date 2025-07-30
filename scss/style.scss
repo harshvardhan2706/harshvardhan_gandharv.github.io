@@ -14,17 +14,17 @@ $secondary: #a0f669;
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+	 -moz-border-radius: $radius;
+	  -ms-border-radius: $radius;
+		  border-radius: $radius;
 }
 
 @mixin transition($transition) {
-    -moz-transition:    all $transition ease;
-    -o-transition:      all $transition ease;
-    -webkit-transition: all $transition ease;
-    -ms-transition: 		all $transition ease;
-    transition:         all $transition ease;
+	-moz-transition:    all $transition ease;
+	-o-transition:      all $transition ease;
+	-webkit-transition: all $transition ease;
+	-ms-transition: 		all $transition ease;
+	transition:         all $transition ease;
 }
 
 html {
@@ -350,8 +350,8 @@ h1, h2, h3, h4, h5,
 	  z-index: 1;
 	  color: rgba(0,0,0,.3);
 	  @include media-breakpoint-down(lg){
-	  	opacity: 0;
-	  	display: none;
+		opacity: 0;
+		display: none;
 	  }
 	}
 }
@@ -645,6 +645,14 @@ h1, h2, h3, h4, h5,
 	}
 } 
 
+// #superimg{
+// 	margin-left: 20px;
+// 	width: 50vh;
+// 	height: 80vh;
+// 	display: inline;
+// 	position: absolute;
+
+// }
 
 .hero-wrap{
 	width: 100%;
@@ -1169,9 +1177,9 @@ textarea.form-control {
 .ftco-vh-100 {
   height: 100vh;
   @include media-breakpoint-down(lg) {
-  	height: inherit;
-  	padding-top: 5em;
-  	padding-bottom: 5em;
+	height: inherit;
+	padding-top: 5em;
+	padding-bottom: 5em;
   }
 }
 
@@ -1338,27 +1346,27 @@ textarea.form-control {
 
 @-webkit-keyframes pulse {
   0% {
-    -webkit-box-shadow: 0 0 0 0 rgba($primary, 0.4);
+	-webkit-box-shadow: 0 0 0 0 rgba($primary, 0.4);
   }
   70% {
-      -webkit-box-shadow: 0 0 0 30px rgba($primary, 0);
+	  -webkit-box-shadow: 0 0 0 30px rgba($primary, 0);
   }
   100% {
-      -webkit-box-shadow: 0 0 0 0 rgba($primary, 0);
+	  -webkit-box-shadow: 0 0 0 0 rgba($primary, 0);
   }
 }
 @keyframes pulse {
   0% {
-    -moz-box-shadow: 0 0 0 0 rgba($primary, 0.4);
-    box-shadow: 0 0 0 0 rgba($primary, 0.4);
+	-moz-box-shadow: 0 0 0 0 rgba($primary, 0.4);
+	box-shadow: 0 0 0 0 rgba($primary, 0.4);
   }
   70% {
-      -moz-box-shadow: 0 0 0 30px rgba($primary, 0);
-      box-shadow: 0 0 0 30px rgba($primary, 0);
+	  -moz-box-shadow: 0 0 0 30px rgba($primary, 0);
+	  box-shadow: 0 0 0 30px rgba($primary, 0);
   }
   100% {
-      -moz-box-shadow: 0 0 0 0 rgba($primary, 0);
-      box-shadow: 0 0 0 0 rgba($primary, 0);
+	  -moz-box-shadow: 0 0 0 0 rgba($primary, 0);
+	  box-shadow: 0 0 0 0 rgba($primary, 0);
   }
 }
 
@@ -1436,10 +1444,10 @@ textarea.form-control {
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
-    opacity: 1;
+	opacity: 1;
 }
 .mfp-with-zoom.mfp-ready.mfp-bg {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 .mfp-with-zoom.mfp-removing .mfp-container, 
@@ -1967,21 +1975,21 @@ textarea.form-control {
 
 @keyframes loader-rotate {
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 
 @keyframes loader-dash {
   0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
+	stroke-dasharray: 1, 200;
+	stroke-dashoffset: 0;
   }
   50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px;
+	stroke-dasharray: 89, 200;
+	stroke-dashoffset: -35px;
   }
   100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px;
+	stroke-dasharray: 89, 200;
+	stroke-dashoffset: -136px;
   }
 }
