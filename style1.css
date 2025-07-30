@@ -1,7 +1,4 @@
 #superimg {
-    
-	/* width: 12em;
-	height: 12em; */
 	display: flex;
 	align-items: flex-start;
 	justify-content: flex-end;
@@ -13,6 +10,12 @@
 		display: none;
 	}
 	img {
-		width: 110vh;
+		width: 95vh;
+	}
+}
+/* Responsive Rule: Hide on small screens */
+@media (max-width: 768px) {
+	#superimg {
+		display: none;
 	}
 }
